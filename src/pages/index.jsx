@@ -1,9 +1,10 @@
 import ContainerBlock from "../components/ContainerBlock";
 import Hero from "../components/Hero";
 
+
 const Home = (props) => {
   return (
-    <ContainerBlock>
+    <ContainerBlock >
       <Hero />
     </ContainerBlock>
   );

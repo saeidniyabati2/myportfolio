@@ -24,9 +24,7 @@ module.exports = {
       },
 
       fontFamily: {
-        // dancingScript: ["DancingScript", "sans-serif"],
-        DMSerifDisplay: ["DMSerifDisplay", "sans-serif"],
-        Allerta: ["Allerta", "sans-serif"],
+        HankenGrotesk: ["HankenGrotesk", "sans-serif"],
       },
 
       screens: {
