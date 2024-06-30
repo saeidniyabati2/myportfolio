@@ -9,7 +9,9 @@ export default function Navbar(props) {
           <Image 
           width={100}
           height={100}
+          alt=""
            src="/assets/Screenshot 2024-06-30 at 12.46.18 AM.png" />
+           
         </div>
       </div>
       <div className="w-full h-full bg-red-700 basis-[20%]">22</div>
