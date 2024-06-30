@@ -26,12 +26,15 @@ export default function Hero(props: object) {
   console.log(test2);
 
   return (
-    <div className="w-full h-screen bg-red-600">
-      <h2 className="font-bold ">this is test</h2>
-      <h2 className="font-HankenGrotesk font-light">this is testdfdg</h2>
-      <p className="font-HankenGrotesk font-bold">this is test</p>
-      <p className="font-HankenGrotesk">this is test</p>
-      <h2>this is test</h2>
-    </div>
+    <section className="w-full h-[75vh] bg-red-600 flex">
+      {/* left side section */}
+      <div className="w-full h-full bg-red-400 basis-[73%] bg-[#F8F9FD]">
+        dfd
+      </div>
+      {/* right side section */}
+      <div className="w-full h-full bg-red-900 basis-[27%] bg-[#ECF6FF]">
+        dfdfdfdfdd
+      </div>
+    </section>
   );
 }

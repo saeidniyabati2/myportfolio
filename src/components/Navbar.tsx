@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Navbar(props: object) {
   return (
-    <nav className="w-full h-[4rem]  flex  bg-[#F8F9FD]">
+    <nav className="w-full h-[4rem]  flex ">
       <div className="w-full h-full  basis-[73%] flex bg-[#F8F9FD] pl-[15rem]">
         {/* container of image */}
         <div className=" h-full  relative flex items-center basis-4/12">
