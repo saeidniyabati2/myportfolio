@@ -13,21 +13,17 @@ export default function Hero(props: object) {
 
   console.log(user);
 
-  const testF = function (user:User):User {
-
-    return {name:"saeed",age:44}
+  const testF = function (user: User): User {
+    return { name: "saeed", age: 44 };
   };
 
-  const test4 = function (user:User):void {
-
-    "saeed" + "niyabati"
+  const test4 = function (user: User): void {
+    "saeed" + "niyabati";
   };
 
+  const test2 = testF(user);
 
-  const test2 = testF(user)
-
-  console.log(test2)
-
+  console.log(test2);
 
   return (
     <div className="w-full h-screen bg-red-600">
