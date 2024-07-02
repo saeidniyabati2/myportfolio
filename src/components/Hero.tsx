@@ -33,12 +33,28 @@ export default function Hero(props: object) {
 
   // type test11 = 1 | 3;
 
-
-
   return (
     <section className="w-full h-[75vh] bg-red-600 flex">
       {/* left side section */}
-      <div className="w-full h-full basis-[73%] bg-[#F8F9FD]">dfd</div>
+      <div className="w-full h-full basis-[73%] bg-[#F8F9FD] relative">
+        <div className="w-10 h-10 bg-white absolute top-24 right-52 shadow1  flex items-center justify-center p-1 rounded-sm">
+          <Image
+            width={100}
+            height={100}
+            alt="ddf"
+            src="/assets/node-js-svgrepo-com.svg"
+          />
+        </div>
+
+        <div className="w-12 h-12 bg-white absolute top-52 right-72 shadow1  flex items-center justify-center p-1 rounded-sm">
+          <Image
+            width={100}
+            height={100}
+            alt="ddf"
+            src="/assets/redux-svgrepo-com.svg"
+          />
+        </div>
+      </div>
       {/* right side section */}
       <div className="w-full h-full  basis-[27%] bg-[#ECF6FF] relative">
         <div className="w-12 h-12 bg-white absolute top-20 right-20 shadow1  flex items-center justify-center p-1 rounded-sm">
@@ -46,7 +62,7 @@ export default function Hero(props: object) {
             width={100}
             height={100}
             alt="ddf"
-            src="/assets/React-icon.svg.png"
+            src="/assets/react-svgrepo-com.svg"
           />
         </div>
         <div className="w-6 h-6 bg-white absolute top-32 right-56 shadow1 p-1 rounded-sm ">
