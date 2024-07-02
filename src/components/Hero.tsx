@@ -33,12 +33,12 @@ export default function Hero(props: object) {
 
   // type test11 = 1 | 3;
 
+
+
   return (
     <section className="w-full h-[75vh] bg-red-600 flex">
       {/* left side section */}
-      <div className="w-full h-full basis-[73%] bg-[#F8F9FD]">
-        dfd
-      </div>
+      <div className="w-full h-full basis-[73%] bg-[#F8F9FD]">dfd</div>
       {/* right side section */}
       <div className="w-full h-full  basis-[27%] bg-[#ECF6FF] relative">
         <div className="w-12 h-12 bg-white absolute top-20 right-20 shadow1  flex items-center justify-center p-1 rounded-sm">
