@@ -1,7 +1,7 @@
 import ContainerBlock from "../components/ContainerBlock";
 import Hero from "../components/Hero";
 
-const Home = (props) => {
+const Home = (props:object) => {
   return (
     <ContainerBlock>
       <Hero />
