@@ -34,6 +34,12 @@ export default function Hero(props: object) {
 
   // type test11 = 1 | 3;
 
+  // const greet = function(person:String,date:Date){
+
+  // }
+
+  // greet("123",new Date())
+
   return (
     <section className="w-full h-[75vh] bg-green-600 flex ">
       {/* left side section */}
@@ -54,7 +60,7 @@ export default function Hero(props: object) {
             <Button
               variant="contained"
               endIcon={
-                <ArrowForwardIosIcon  fontSize="small" className="text-sm" />
+                <ArrowForwardIosIcon fontSize="small" className="text-sm" />
               }
               size="large"
               className="px-8 text-xs"
