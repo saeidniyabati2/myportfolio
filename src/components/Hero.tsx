@@ -40,8 +40,10 @@ export default function Hero(props: object) {
       <div className="w-full h-full basis-[73%] bg-[#F8F9FD] relative pl-[15rem]">
         {/* container of texts with buttons */}
         <div className="w-full  bg-red-500 flex flex-col gap-y-5">
-          <h1 className="mt-32 text-5xl">Hello Mate 👋</h1>
-          <h1 className="text-6xl">I'm Saeid Niyabati</h1>
+          <h1 className="mt-32 text-5xl font-HankenGrotesk">Hello Mate 👋</h1>
+          <h1 className="text-6xl font-HankenGrotesk font-medium">
+            I'm Saeid Niyabati
+          </h1>
           <h1 className="text-6xl">
             a <span className="text-[#2383C4]">Web Developer</span>
           </h1>
@@ -54,7 +56,7 @@ export default function Hero(props: object) {
             <Button
               variant="contained"
               endIcon={
-                <ArrowForwardIosIcon  fontSize="small" className="text-sm" />
+                <ArrowForwardIosIcon fontSize="small" className="text-sm" />
               }
               size="large"
               className="px-8 text-xs"
