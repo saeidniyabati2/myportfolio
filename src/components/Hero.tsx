@@ -1,53 +1,18 @@
-import Button from "@mui/material/Button";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import Button from "@mui/material/Button";
+import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 export default function Hero(props: object) {
-  // let test = "this is test";
-
-  // interface User {
-  //   name: String;
-  //   age: Number;
-  // }
-
-  // const user: User = {
-  //   name: "saeed",
-  //   age: 29,
-  // };
-
-  // console.log(user);
-
-  // const testF = function (user: User): User {
-  //   return { name: "saeed", age: 44 };
-  // };
-
-  // const test4 = function (user: User): void {
-  //   "saeed" + "niyabati";
-  // };
-
-  // const test2 = testF(user);
-
-  // console.log(test2);
-
-  // type Test10 = true | false;
-
-  // const Test10 = 3;
-
-  // type test11 = 1 | 3;
-
-  // const greet = function(person:String,date:Date){
-
-  // }
-
-  // greet("123",new Date())
-
   return (
     <section className="w-full h-[75vh] bg-green-600 flex ">
       {/* left side section */}
       <div className="w-full h-full basis-[73%] bg-[#F8F9FD] relative pl-[15rem]">
         {/* container of texts with buttons */}
         <div className="w-full  bg-red-500 flex flex-col gap-y-5">
-          <h1 className="mt-32 text-5xl">Hello Mate 👋</h1>
-          <h1 className="text-6xl">I'm Saeid Niyabati</h1>
+          <h1 className="mt-32 text-5xl font-HankenGrotesk">Hello Mate 👋</h1>
+          <h1 className="text-6xl font-HankenGrotesk font-medium">
+            I'm Saeid Niyabati
+          </h1>
           <h1 className="text-6xl">
             a <span className="text-[#2383C4]">Web Developer</span>
           </h1>
@@ -56,16 +21,23 @@ export default function Hero(props: object) {
             turn their idea into high quality products.
           </p>
           {/* buttons container */}
-          <div className="w-full bg-green-700">
+          <div className="w-full h-full bg-green-700 flex gap-x-4">
             <Button
-              variant="contained"
-              endIcon={
-                <ArrowForwardIosIcon fontSize="small" className="text-sm" />
-              }
-              size="large"
-              className="px-8 text-xs"
+              className="bg-[#2383C4] text-white px-5"
+              endIcon={<ArrowForwardIosIcon style={{ fontSize: "14px" }} />}
             >
-              Send
+              <p className="font-HankenGrotesk no-transform font-light">
+                Book a Call
+              </p>
+            </Button>
+            <Button
+              variant="outlined"
+              className="  px-5 bg-[#F8F9FD]"
+              endIcon={<CloudDownloadIcon style={{ fontSize: "14px" }} />}
+            >
+              <p className="font-HankenGrotesk no-transform font-light">
+                Download CV
+              </p>
             </Button>
           </div>
         </div>

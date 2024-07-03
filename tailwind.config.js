@@ -12,6 +12,9 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        hanken: ["Hanken Grotesk", "sans-serif"],
+      },
       colors: {
         mainGray: "#3D3F3C",
         mainOrange: "#FF6000",
