@@ -66,6 +66,14 @@ export default function Hero(props: any) {
       </div>
       {/* right side section */}
       <div className="w-full h-full  basis-[27%] bg-[#ECF6FF] relative">
+        {/* container of hero image */}
+        <div className=" w-[28rem] h-[35rem]  absolute -bottom-1 right-40  ">
+          <Image
+           fill
+            alt="ddf"
+            src="/assets/Rectangle 11.png"
+          />
+        </div>
         <div className="w-12 h-12 bg-white absolute top-20 right-20 shadow1  flex items-center justify-center p-1 rounded-md">
           <Image
             width={100}
