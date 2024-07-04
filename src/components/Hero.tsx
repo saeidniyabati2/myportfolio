@@ -2,6 +2,7 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import Button from "@mui/material/Button";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
+import MiniImageHero from "./image/MiniImageHero";
 export default function Hero(props: any) {
   return (
     <section className="w-full h-[75vh] bg-green-600 flex ">
@@ -47,57 +48,34 @@ export default function Hero(props: any) {
             </Button>
           </div>
         </div>
-        <div className="w-10 h-10 bg-white absolute top-24 right-32 shadow1  flex items-center justify-center p-1 rounded-md">
-          <Image
-            width={100}
-            height={100}
-            alt="ddf"
-            src="/assets/node-js-svgrepo-com.svg"
-          />
-        </div>
-        <div className="w-12 h-12 bg-white absolute top-52 right-52 shadow1  flex items-center justify-center p-1 rounded-md">
-          <Image
-            width={100}
-            height={100}
-            alt="ddf"
-            src="/assets/redux-svgrepo-com.svg"
-          />
-        </div>
+        <MiniImageHero
+          sorceImage="/assets/node-js-svgrepo-com.svg"
+          className="w-10 h-10 top-24 right-32 "
+        />
+        <MiniImageHero
+          sorceImage="/assets/redux-svgrepo-com.svg"
+          className="w-12 h-12  top-52 right-52 "
+        />
       </div>
       {/* right side section */}
       <div className="w-full h-full  basis-[27%] bg-[#ECF6FF] relative">
         {/* container of hero image */}
         <div className=" w-[28rem] h-[35rem]  absolute -bottom-1 right-40  ">
-          <Image
-           fill
-            alt="ddf"
-            src="/assets/Rectangle 11.png"
-          />
+          <Image fill alt="ddf" src="/assets/Rectangle 11.png" />
         </div>
-        <div className="w-12 h-12 bg-white absolute top-20 right-20 shadow1  flex items-center justify-center p-1 rounded-md">
-          <Image
-            width={100}
-            height={100}
-            alt="ddf"
-            src="/assets/react-svgrepo-com.svg"
-          />
-        </div>
-        <div className="w-6 h-6 bg-white absolute top-32 right-56 shadow1 p-1 rounded-md ">
-          <Image
-            width={100}
-            height={100}
-            alt="ddf"
-            src="/assets/tailwindcss-icon-svgrepo-com.svg"
-          />
-        </div>
-        <div className="w-10 h-10 bg-white absolute top-56 right-32 shadow1  flex items-center justify-center p-1 rounded-md">
-          <Image
-            width={100}
-            height={100}
-            alt="ddf"
-            src="/assets/next-dot-js-svgrepo-com.svg"
-          />
-        </div>
+        <MiniImageHero
+          sorceImage="/assets/react-svgrepo-com.svg"
+          className="w-12 h-12 top-20 right-20 "
+        />
+        <MiniImageHero
+          sorceImage="/assets/tailwindcss-icon-svgrepo-com.svg"
+          className="w-6 h-6 top-32 right-56  "
+        />
+
+        <MiniImageHero
+          sorceImage="/assets/next-dot-js-svgrepo-com.svg"
+          className="w-10 h-10   top-56 right-32 "
+        />
       </div>
     </section>
   );
