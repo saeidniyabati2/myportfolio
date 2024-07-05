@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 import MiniImageHero from "./image/MiniImageHero";
-export default function Hero(props: any) {
+export default function Hero(props: object) {
   return (
     <section className="w-full h-[75vh] bg-green-600 flex ">
       {/* left side section */}
