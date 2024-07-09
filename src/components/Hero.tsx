@@ -3,7 +3,7 @@ import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 import MiniImageHero from "./image/MiniImageHero";
 import BlueButton from "./button/BlueButton";
-import GrayButton from "./button/grayButton";
+import GrayButton from "./button/GrayButton";
 export default function Hero(props: any) {
   return (
     <section className="w-full h-[75vh] bg-green-600 flex ">
