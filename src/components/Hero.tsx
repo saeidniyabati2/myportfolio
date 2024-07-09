@@ -45,7 +45,7 @@ export default function Hero(props: any) {
       <div className="w-full h-full  basis-[27%] bg-[#ECF6FF] relative">
         {/* container of hero image */}
         <div className=" w-[28rem] h-[35rem]  absolute -bottom-1 right-40  ">
-          <Image fill alt="ddf" src="/assets/Rectangle 11.png" />
+          <Image fill alt="Hero image" src="/assets/Rectangle 11.png" />
         </div>
         <MiniImageHero
           sorceImage="/assets/react-svgrepo-com.svg"
@@ -58,7 +58,7 @@ export default function Hero(props: any) {
 
         <MiniImageHero
           sorceImage="/assets/next-dot-js-svgrepo-com.svg"
-          className="w-10 h-10   top-56 right-32 "
+          className="w-10 h-10 top-56 right-32 "
         />
       </div>
     </section>
