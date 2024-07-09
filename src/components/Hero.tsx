@@ -1,8 +1,9 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import Button from "@mui/material/Button";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 import MiniImageHero from "./image/MiniImageHero";
+import BlueButton from "./button/BlueButton";
+import GrayButton from "./button/grayButton";
 export default function Hero(props: any) {
   return (
     <section className="w-full h-[75vh] bg-green-600 flex ">
@@ -25,27 +26,10 @@ export default function Hero(props: any) {
           </p>
           {/* buttons container */}
           <div className="w-full h-full flex gap-x-4 mt-4">
-            <Button
-              className="bg-[#0189FF] text-white px-6 py-2 rounded-sm"
-              endIcon={<ArrowForwardIosIcon style={{ fontSize: "14px" }} />}
-            >
-              <p className="font-HankenGrotesk no-transform font-light">
-                Book a Call
-              </p>
-            </Button>
-            <Button
-              variant="outlined"
-              className="  bg-[#F8F9FD]  px-6 py-2 rounded-sm border-[#ADB7C4]"
-              endIcon={
-                <CloudDownloadIcon
-                  style={{ fontSize: "14px", color: "#29303B" }}
-                />
-              }
-            >
-              <p className="font-HankenGrotesk no-transform font-light text-[#29303B]">
-                Download CV
-              </p>
-            </Button>
+            {/* blue button */}
+            <BlueButton title="Book a Call" icon={ArrowForwardIosIcon} />
+            {/* gray button */}
+            <GrayButton title="Download CVS" icon={CloudDownloadIcon} />
           </div>
         </div>
         <MiniImageHero
