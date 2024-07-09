@@ -18,7 +18,7 @@ export default function Hero(props: any) {
             I'm Saeid Niyabati
           </h1>
           <h1 className="text-6xl font-HankenGrotesk">
-            a <span className="text-[#0189FF] ">Web Developer</span>
+            a <span className="text-mainButton">Web Developer</span>
           </h1>
           <p className="text-[#ADB7C4] max-w-[30rem] text-sm leading-relaxed mt-4">
             Hi, I'm Saeed a freelancer web developer from Iran. I help brands

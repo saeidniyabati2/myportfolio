@@ -16,7 +16,7 @@ module.exports = {
         hanken: ["Hanken Grotesk", "sans-serif"],
       },
       colors: {
-        mainGray: "#3D3F3C",
+        mainButton: "#0189FF",
         mainOrange: "#FF6000",
         mainOrangeSecond: "#fc9657",
         secondGray: "#686967",
