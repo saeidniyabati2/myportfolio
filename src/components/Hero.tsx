@@ -1,9 +1,10 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
-import Button from "@mui/material/Button";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 import MiniImageHero from "./image/MiniImageHero";
-export default function Hero(props: object) {
+import BlueButton from "./button/BlueButton";
+import GrayButton from "./button/GrayButton";
+export default function Hero(props: any) {
   return (
     <section className="w-full h-[75vh] bg-green-600 flex ">
       {/* left side section */}
@@ -17,7 +18,7 @@ export default function Hero(props: object) {
             I'm Saeid Niyabati
           </h1>
           <h1 className="text-6xl font-HankenGrotesk">
-            a <span className="text-[#0189FF] ">Web Developer</span>
+            a <span className="text-mainButton">Web Developer</span>
           </h1>
           <p className="text-[#ADB7C4] max-w-[30rem] text-sm leading-relaxed mt-4">
             Hi, I'm Saeed a freelancer web developer from Iran. I help brands
@@ -25,27 +26,10 @@ export default function Hero(props: object) {
           </p>
           {/* buttons container */}
           <div className="w-full h-full flex gap-x-4 mt-4">
-            <Button
-              className="bg-[#0189FF] text-white px-6 py-2 rounded-sm"
-              endIcon={<ArrowForwardIosIcon style={{ fontSize: "14px" }} />}
-            >
-              <p className="font-HankenGrotesk no-transform font-light">
-                Book a Call
-              </p>
-            </Button>
-            <Button
-              variant="outlined"
-              className="  bg-[#F8F9FD]  px-6 py-2 rounded-sm border-[#ADB7C4]"
-              endIcon={
-                <CloudDownloadIcon
-                  style={{ fontSize: "14px", color: "#29303B" }}
-                />
-              }
-            >
-              <p className="font-HankenGrotesk no-transform font-light text-[#29303B]">
-                Download CV
-              </p>
-            </Button>
+            {/* blue button */}
+            <BlueButton title="Book a Call" icon={ArrowForwardIosIcon} />
+            {/* gray button */}
+            <GrayButton title="Download CVS" icon={CloudDownloadIcon} />
           </div>
         </div>
         <MiniImageHero
@@ -61,7 +45,7 @@ export default function Hero(props: object) {
       <div className="w-full h-full  basis-[27%] bg-[#ECF6FF] relative">
         {/* container of hero image */}
         <div className=" w-[28rem] h-[35rem]  absolute -bottom-1 right-40  ">
-          <Image fill alt="ddf" src="/assets/Rectangle 11.png" />
+          <Image fill alt="Hero image" src="/assets/Rectangle 11.png" />
         </div>
         <MiniImageHero
           sorceImage="/assets/react-svgrepo-com.svg"
@@ -74,7 +58,7 @@ export default function Hero(props: object) {
 
         <MiniImageHero
           sorceImage="/assets/next-dot-js-svgrepo-com.svg"
-          className="w-10 h-10   top-56 right-32 "
+          className="w-10 h-10 top-56 right-32 "
         />
       </div>
     </section>
