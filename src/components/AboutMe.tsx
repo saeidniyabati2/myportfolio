@@ -2,9 +2,10 @@ import Image from "next/image";
 import BlueButton from "./button/BlueButton";
 import AboutMeCarousel from "./image/AboutMeCarousel";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import ImageAboutMe from "./ImageAboutMe";
 export default function AboutMe(props: object) {
   return (
-    <section className="w-full h-[90vh] pt-28 bg-red-400 flex flex-col">
+    <section className="w-full h-[90vh] pt-28  flex flex-col">
       {/* container of mini text title with image slider */}
       <div className="w-full   flex flex-col items-center px-[9.9rem]">
         <p className="text-sm">
@@ -15,7 +16,9 @@ export default function AboutMe(props: object) {
       </div>
       {/* container of image and description */}
       <div className="w-full h-full flex ">
-        <div className="w-full h-full bg-white">dfdf</div>
+        <div className="w-full h-full ">
+          <ImageAboutMe/>
+        </div>
         <div className="w-full h-full bg-white flex flex-col pt-20 gap-y-4 pb-12 pr-[15rem]">
           <p className="text-sm text-mainButton">ABOUT ME</p>
           <h2 className="text-[2rem] leading-snug ">
