@@ -5,9 +5,12 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ImageAboutMe from "./ImageAboutMe";
 export default function AboutMe(props: object) {
   return (
-    <section className="w-full h-[90vh] pt-28  flex flex-col">
+    <section
+      className="w-full pt-28 h-[95vh] flex flex-col
+    "
+    >
       {/* container of mini text title with image slider */}
-      <div className="w-full   flex flex-col items-center px-[9.9rem]">
+      <div className="w-full   flex flex-col items-center px-[9.9rem] ">
         <p className="text-sm">
           <span className="text-mainButton ">TECHNOLOGIES</span> THAT I AM USING
         </p>
@@ -16,15 +19,15 @@ export default function AboutMe(props: object) {
       </div>
       {/* container of image and description */}
       <div className="w-full h-full flex ">
-        <div className="w-full h-full ">
-          <ImageAboutMe/>
+        <div className="w-full h-full bg-green">
+          <ImageAboutMe />
         </div>
-        <div className="w-full h-full bg-white flex flex-col pt-20 gap-y-4 pb-12 pr-[15rem]">
+        <div className="w-full h-full flex flex-col pt-20 gap-y-4 pb-12  ">
           <p className="text-sm text-mainButton">ABOUT ME</p>
-          <h2 className="text-[2rem] leading-snug ">
+          <h2 className="text-[2rem] leading-snug max-w-[35rem]">
             More Than 5+ Years Programming Experienced
           </h2>
-          <p className="text-secondGray  text-sm leading-relaxed mt-3">
+          <p className="text-secondGray  text-sm leading-relaxed mt-3 max-w-[30rem]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
             sapiente error, veniam animi nostrum, nihil dolorem tempora alias
             quas vel voluptate doloremque suscipit ab nulla. Quae consequatur,
@@ -32,7 +35,7 @@ export default function AboutMe(props: object) {
             dolores quisquam id.
           </p>
           {/* container of main information and button */}
-          <div className="w-full h-full  flex flex-col">
+          <div className="w-full h-full  flex flex-col  max-w-[30rem]">
             {/* container of name and other information */}
             <div className="w-full   grid grid-cols-2 gap-y-1 mt-3 ">
               <div className="w-full flex items-center gap-x-3 ">
