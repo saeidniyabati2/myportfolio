@@ -6,7 +6,7 @@ import BlueButton from "./button/BlueButton";
 import GrayButton from "./button/GrayButton";
 export default function Hero(props: any) {
   return (
-    <section className="w-full h-[75vh] bg-green-600 flex ">
+    <section className="w-full h-[75vh] flex ">
       {/* left side section */}
       <div className="w-full h-full basis-[73%] bg-[#F8F9FD] relative pl-[15rem]">
         {/* container of texts with buttons */}

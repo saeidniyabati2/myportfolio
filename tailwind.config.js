@@ -17,13 +17,7 @@ module.exports = {
       },
       colors: {
         mainButton: "#0189FF",
-        mainOrange: "#FF6000",
-        mainOrangeSecond: "#fc9657",
-        secondGray: "#686967",
-        thirdGray: "#383A37",
-        fourthGray: "#464845",
-        fifthGray: "#DCDCDC",
-        sixthGray: "#6B6D6A",
+        secondGray: "#ADB7C4",
       },
 
       fontFamily: {
