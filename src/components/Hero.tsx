@@ -4,7 +4,20 @@ import Image from "next/image";
 import MiniImageHero from "./image/MiniImageHero";
 import BlueButton from "./button/BlueButton";
 import GrayButton from "./button/GrayButton";
-export default function Hero(props: any) {
+
+type handleClick = (val: object) => string;
+
+interface props {
+  title?:string
+}
+
+export const Hero: React.FC<props> = (props) => {
+  let handleClick: handleClick;
+
+  handleClick = function (value: object) {
+    return "";
+  };
+
   return (
     <section className="w-full h-[75vh] flex ">
       {/* left side section */}
@@ -63,4 +76,4 @@ export default function Hero(props: any) {
       </div>
     </section>
   );
-}
+};
