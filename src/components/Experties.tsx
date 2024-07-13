@@ -1,5 +1,5 @@
-import Image from "next/image";
 import { ExpertiesCard } from "./cards/ExpertiesCard";
+import KeyboardCommandKeyIcon from "@mui/icons-material/KeyboardCommandKey";
 
 export const Experties: React.FC = () => {
   return (
@@ -20,6 +20,7 @@ export const Experties: React.FC = () => {
               elit. Quidem,"
           miniText="Explore Service"
           status={false}
+          Icon={KeyboardCommandKeyIcon}
         />
         {/* second card */}
         <ExpertiesCard
@@ -28,6 +29,7 @@ export const Experties: React.FC = () => {
               elit. Quidem,"
           miniText="Explore Service"
           status={true}
+          Icon={KeyboardCommandKeyIcon}
         />
         {/* third card */}
         <ExpertiesCard
@@ -36,6 +38,7 @@ export const Experties: React.FC = () => {
               elit. Quidem,"
           miniText="Explore Service"
           status={false}
+          Icon={KeyboardCommandKeyIcon}
         />
       </div>
     </section>

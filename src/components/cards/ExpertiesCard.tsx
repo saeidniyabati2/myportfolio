@@ -1,10 +1,9 @@
-import Image from "next/image";
-
 interface props {
   title: string;
   description: string;
   miniText: string;
   status: boolean;
+  Icon: React.ElementType;
 }
 
 export const ExpertiesCard: React.FC<props> = ({
@@ -12,6 +11,7 @@ export const ExpertiesCard: React.FC<props> = ({
   description,
   miniText,
   status,
+  Icon,
 }) => {
   return (
     <div
@@ -25,12 +25,7 @@ export const ExpertiesCard: React.FC<props> = ({
           status && "bg-mainButton"
         }`}
       >
-        <Image
-          width={50}
-          height={50}
-          alt="icon"
-          src="/assets/command-svgrepo-com.svg"
-        />
+        {<Icon style={{ color: status ? "#ECF6FF" : "#0189FF" }} />}
       </div>
       {/* container texts */}
       <div className="w-full flex flex-col gap-y-3">
@@ -39,15 +34,12 @@ export const ExpertiesCard: React.FC<props> = ({
           {description}
         </p>
         <div className="flex flex-col ">
-          <p
-            className={`text-sm ${
-              status &&
-              "text-mainButton"
+          <p className={`text-sm ${status && "text-mainButton"}`}>{miniText}</p>
+          <hr
+            className={`w-[6.3rem] h-[0.08rem]  ${
+              status ? "visible bg-mainButton  border-none" : "invisible"
             }`}
-          >
-            {miniText}
-          </p>
-          <hr className={`w-[6.3rem] h-[0.08rem]  ${status ? "visible bg-mainButton  border-none" :  "invisible"}`}/>
+          />
         </div>
       </div>
     </div>
