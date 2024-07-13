@@ -1,4 +1,5 @@
 import AboutMe from "../components/AboutMe";
+import { AchivementCounts } from "../components/AchivementCounts";
 import ContainerBlock from "../components/ContainerBlock";
 import { Experties } from "../components/Experties";
 import { Hero } from "../components/Hero";
@@ -12,6 +13,7 @@ const Home = (props: object) => {
       <AboutMe />
       <SkillSet />
       <Experties />
+      <AchivementCounts />
     </ContainerBlock>
   );
 };
