@@ -30,9 +30,9 @@ export const ExpertiesCard: React.FC<props> = ({
       {/* container texts */}
       <div className="w-full flex flex-col gap-y-3">
         <h5>{title}</h5>
-        <p className="text-secondGray  text-[0.8rem] leading-relaxed ">
-          {description}
-        </p>
+          <p className="text-secondGray  text-[0.8rem] leading-relaxed ">
+            {description}
+          </p>
         <div className="flex flex-col ">
           <p className={`text-sm ${status && "text-mainButton"}`}>{miniText}</p>
           <hr
