@@ -7,7 +7,7 @@ import { Hero } from "../components/Hero";
 import SkillSet from "../components/SkillSet";
 // commetn
 
-const Home = (props: object) => {
+const Home = () => {
   return (
     <ContainerBlock>
       <Hero />
