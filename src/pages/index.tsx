@@ -1,5 +1,6 @@
 import AboutMe from "../components/AboutMe";
 import { AchivementCounts } from "../components/AchivementCounts";
+import { Banner } from "../components/Banner";
 import ContainerBlock from "../components/ContainerBlock";
 import { EducatExperience } from "../components/EducatExperience";
 import { Experties } from "../components/Experties";
@@ -16,6 +17,7 @@ const Home = () => {
       <Experties />
       <AchivementCounts />
       <EducatExperience />
+      <Banner />
     </ContainerBlock>
   );
 };
