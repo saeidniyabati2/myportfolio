@@ -18,37 +18,53 @@ export const Gallery: React.FC = () => {
         </div>
         {/* container of images */}
         <div className="grid grid-cols-2 bg-red-700 mt-6 gap-5">
-          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg">
+          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg group cursor-pointer">
             <Image
               fill
-              alt="fdfd"
+              alt="Sample Image"
               src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
+              className="object-cover"
             />
-            <div className="w-full bg-mainButton h-20 absolute bottom-0 p-4 px-6">
-                <p className="text-sm text-white">Web Development</p>
-                <p className="text-lg text-white">Lorem ipsum dolor sit.</p>
+            <div className="w-full bg-mainButton absolute bottom-0 left-0 right-0 p-4 px-6 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+              <p className="text-sm text-white">Web Development</p>
+              <p className="text-lg text-white">Lorem ipsum dolor sit.</p>
             </div>
           </div>
-          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg">
+          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg group cursor-pointer">
             <Image
               fill
-              alt="fdfd"
+              alt="Sample Image"
               src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
+              className="object-cover"
             />
+            <div className="w-full bg-mainButton absolute bottom-0 left-0 right-0 p-4 px-6 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+              <p className="text-sm text-white">Web Development</p>
+              <p className="text-lg text-white">Lorem ipsum dolor sit.</p>
+            </div>
           </div>
-          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg">
+          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg group cursor-pointer">
             <Image
               fill
-              alt="fdfd"
+              alt="Sample Image"
               src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
+              className="object-cover"
             />
+            <div className="w-full bg-mainButton absolute bottom-0 left-0 right-0 p-4 px-6 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+              <p className="text-sm text-white">Web Development</p>
+              <p className="text-lg text-white">Lorem ipsum dolor sit.</p>
+            </div>
           </div>
-          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg">
+          <div className="w-full h-[20rem] bg-green-300 relative overflow-hidden rounded-lg group cursor-pointer">
             <Image
               fill
-              alt="fdfd"
+              alt="Sample Image"
               src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
+              className="object-cover"
             />
+            <div className="w-full bg-mainButton absolute bottom-0 left-0 right-0 p-4 px-6 transform translate-y-full transition-transform duration-500 group-hover:translate-y-0">
+              <p className="text-sm text-white">Web Development</p>
+              <p className="text-lg text-white">Lorem ipsum dolor sit.</p>
+            </div>
           </div>
         </div>
       </div>
