@@ -4,6 +4,7 @@ import { Banner } from "../components/Banner";
 import ContainerBlock from "../components/ContainerBlock";
 import { EducatExperience } from "../components/EducatExperience";
 import { Experties } from "../components/Experties";
+import { Gallery } from "../components/Gallery";
 import { Hero } from "../components/Hero";
 import SkillSet from "../components/SkillSet";
 // commetn
@@ -17,7 +18,8 @@ const Home = () => {
       <Experties />
       <AchivementCounts />
       <EducatExperience />
-      <Banner />
+      {/* <Banner /> */}
+      <Gallery/>
     </ContainerBlock>
   );
 };
