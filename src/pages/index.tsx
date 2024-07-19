@@ -1,5 +1,6 @@
 import AboutMe from "../components/AboutMe";
 import { AchivementCounts } from "../components/AchivementCounts";
+import { Blogs } from "../components/Blogs";
 // import { Banner } from "../components/Banner";
 import { Comments } from "../components/Comments";
 import ContainerBlock from "../components/ContainerBlock";
@@ -22,6 +23,7 @@ const Home = () => {
       {/* <Banner /> */}
       <Gallery />
       <Comments />
+      <Blogs />
     </ContainerBlock>
   );
 };
