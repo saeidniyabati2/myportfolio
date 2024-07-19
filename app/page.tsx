@@ -8,6 +8,11 @@ import SkillSet from "../../components/SkillSet";
 // commetn
 
 const Home = () => {
+  const test: Array<string> = [];
+
+  test["dre"];
+  test[4];
+
   return (
     <ContainerBlock>
       <Hero />
