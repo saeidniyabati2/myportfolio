@@ -28,14 +28,14 @@ export const Comments: React.FC = () => {
       <Carousel
         swipeable={false}
         draggable={false}
-        showDots={true}
+        showDots={false}
         infinite={true}
         autoPlay={true}
         autoPlaySpeed={500}
         customTransition="all .5"
-        transitionDuration={500}
+        transitionDuration={1000}
         responsive={responsive}
-        className="w-full h-[20rem] bg-green-500  "
+        className="w-full h-[20rem]  "
       >
         <div className="w-full h-full  flex flex-col items-center">
           {/* contaienr of image  */}
@@ -47,9 +47,9 @@ export const Comments: React.FC = () => {
             />
           </div>
           <p className="mt-8 text-xl text-center max-w-[45rem] leading-relaxed">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt hic
-            upti nam impedit. Fugit qui quidem accusantium architecto quibusdam
-            ab expedita quis atque ipsam dolore?
+            "Lorem ipconsectetur adipisicing elit. Sunt hic upti nam impedit.
+            Fugit qui quidem accusantium architecto quibusdam ab expedita quis
+            atque ipsam dolore?""
           </p>
           <p className="text-lg text-secondGray mt-5">Chris Brendon</p>
           <p className="text-xs text-mainButton mt-1">Senior Developer</p>
