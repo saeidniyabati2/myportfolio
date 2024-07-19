@@ -2,13 +2,13 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 import MiniImageHero from "./image/MiniImageHero";
-import BlueButton from "./button/BlueButton";
+import { BlueButton } from "./button/BlueButton";
 import GrayButton from "./button/GrayButton";
 
 type handleClick = (val: object) => string;
 
 interface props {
-  title?:string
+  title?: string;
 }
 
 export const Hero: React.FC<props> = (props) => {
@@ -40,7 +40,7 @@ export const Hero: React.FC<props> = (props) => {
           {/* buttons container */}
           <div className="w-full h-full flex gap-x-4 mt-4">
             {/* blue button */}
-            <BlueButton title="Book a Call" icon={ArrowForwardIosIcon} />
+            <BlueButton title="Book a Call" Icon={ArrowForwardIosIcon} />
             {/* gray button */}
             <GrayButton title="Download CVS" icon={CloudDownloadIcon} />
           </div>

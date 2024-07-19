@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BlueButton from "./button/BlueButton";
+import { BlueButton } from "./button/BlueButton";
 import AboutMeCarousel from "./image/AboutMeCarousel";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ImageAboutMe from "./ImageAboutMe";
@@ -63,7 +63,7 @@ export default function AboutMe(props: object) {
             </div>
             {/* container of button */}
             <div className="w-full flex mt-8  items-center gap-x-6">
-              <BlueButton title="Download CVS" icon={ArrowForwardIosIcon} />
+              <BlueButton title="Download CVS" Icon={ArrowForwardIosIcon} />
               <hr className="w-10 h-[0.10rem] bg-secondGray border-none" />
               <p className="text-secondGray  text-sm leading-relaxed ">
                 Follow me

@@ -1,4 +1,4 @@
-import BlueButton from "./button/BlueButton";
+import { BlueButton } from "./button/BlueButton";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import { ProgressBarComp } from "./ProgressBarComp";
@@ -20,7 +20,7 @@ export default function SkillSet() {
           </p>
           {/* container button */}
           <div className="w-full  flex mt-2">
-            <BlueButton title="Get Any Project" icon={ArrowForwardIosIcon} />
+            <BlueButton title="Get Any Project" Icon={ArrowForwardIosIcon} />
           </div>
         </div>
         <div className="w-full h-full flex flex-col gap-y-7  justify-center">
