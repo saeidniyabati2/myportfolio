@@ -5,19 +5,7 @@ import MiniImageHero from "./image/MiniImageHero";
 import { BlueButton } from "./button/BlueButton";
 import GrayButton from "./button/GrayButton";
 
-type handleClick = (val: object) => string;
-
-interface props {
-  title?: string;
-}
-
-export const Hero: React.FC<props> = (props) => {
-  let handleClick: handleClick;
-
-  handleClick = function (value: object) {
-    return "";
-  };
-
+export const Hero: React.FC = () => {
   return (
     <section className="w-full h-[75vh] flex ">
       {/* left side section */}

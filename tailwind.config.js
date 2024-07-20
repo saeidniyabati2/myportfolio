@@ -18,6 +18,8 @@ module.exports = {
       colors: {
         mainButton: "#0189FF",
         secondGray: "#ADB7C4",
+        grayMain: "#F8F9FD",
+        navBarText: "#4D5661",
       },
 
       fontFamily: {
