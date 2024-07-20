@@ -1,10 +1,9 @@
-import Image from "next/image";
 import { BlueButton } from "./button/BlueButton";
 import KeyboardCommandKeyIcon from "@mui/icons-material/KeyboardCommandKey";
-import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
+
 import { BlogCard } from "./cards/BlogCard";
 
-export const Blogs: React.FC = (props) => {
+export const Blogs: React.FC = () => {
   return (
     <section className="w-full px-[15rem]  flex flex-col pb-16">
       <div className="flex">

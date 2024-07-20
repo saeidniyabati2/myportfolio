@@ -12,10 +12,10 @@ export const BlogCard: React.FC<props> = ({
   title,
   autorName,
   countComment,
-  date
+  date,
 }) => {
   return (
-    <div className="w-full  flex flex-col rounded-md overflow-hidden">
+    <div className="w-full  flex flex-col rounded-md overflow-hidden group cursor-pointer hover:shadow-2xl duration-500 ">
       {/* container of image */}
       <div className="relative w-full h-[13rem]">
         <Image
@@ -25,9 +25,9 @@ export const BlogCard: React.FC<props> = ({
         />
       </div>
       {/* container of texts */}
-      <div className="p-5 bg-gray-100">
+      <div className="p-5 bg-gray-100 group-hover:bg-white">
         <p className="text-secondGray  text-[0.8rem] leading-normal ">{date}</p>
-        <h5 className="mt-1">{title}</h5>
+        <h5 className="mt-1 group-hover:text-mainButton">{title}</h5>
         {/* container of autor image and like counts */}
         <div className="w-full  mt-4 flex">
           {/* container of image and name */}
