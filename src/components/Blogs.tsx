@@ -5,7 +5,7 @@ import { BlogCard } from "./cards/BlogCard";
 
 export const Blogs: React.FC = () => {
   return (
-    <section className="w-full px-[15rem]  flex flex-col pb-16">
+    <section className="w-full px-[15rem]  flex flex-col pb-28">
       <div className="flex">
         <div className="w-full  flex flex-col">
           <p className="text-sm text-mainButton mt-20">BLOG & NEWS</p>
