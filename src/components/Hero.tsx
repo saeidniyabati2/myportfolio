@@ -1,7 +1,7 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
-import MiniImageHero from "./image/MiniImageHero";
+import { MiniImageHero } from "./image/MiniImageHero";
 import { BlueButton } from "./button/BlueButton";
 import { GrayButton } from "./button/GrayButton";
 
@@ -34,12 +34,14 @@ export const Hero: React.FC = () => {
           </div>
         </div>
         <MiniImageHero
-          sorceImage="/assets/node-js-svgrepo-com.svg"
-          className="w-10 h-10 top-24 right-32 "
+          src="/assets/node-js-svgrepo-com.svg"
+          className=" top-24 right-32 "
+          size="medium"
         />
         <MiniImageHero
-          sorceImage="/assets/redux-svgrepo-com.svg"
-          className="w-12 h-12  top-52 right-52 "
+          src="/assets/redux-svgrepo-com.svg"
+          className="  top-52 right-52 "
+          size="big"
         />
       </div>
       {/* right side section */}
@@ -49,17 +51,20 @@ export const Hero: React.FC = () => {
           <Image fill alt="Hero image" src="/assets/Rectangle 11.png" />
         </div>
         <MiniImageHero
-          sorceImage="/assets/react-svgrepo-com.svg"
-          className="w-12 h-12 top-20 right-20 "
+          src="/assets/react-svgrepo-com.svg"
+          className=" top-20 right-20 "
+          size="big"
         />
         <MiniImageHero
-          sorceImage="/assets/tailwindcss-icon-svgrepo-com.svg"
-          className="w-6 h-6 top-32 right-56  "
+          src="/assets/tailwindcss-icon-svgrepo-com.svg"
+          className=" top-32 right-56  "
+          size="small"
         />
 
         <MiniImageHero
-          sorceImage="/assets/next-dot-js-svgrepo-com.svg"
-          className="w-10 h-10 top-56 right-32 "
+          src="/assets/next-dot-js-svgrepo-com.svg"
+          className=" top-56 right-32 "
+          size="medium"
         />
       </div>
     </section>
