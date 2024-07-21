@@ -25,7 +25,7 @@ export const BlogCard: React.FC<props> = ({
         />
       </div>
       {/* container of texts */}
-      <div className="p-5 bg-gray-100 group-hover:bg-white">
+      <div className="p-5 bg-grayMain group-hover:bg-white">
         <p className="text-secondGray  text-[0.8rem] leading-normal ">{date}</p>
         <h5 className="mt-1 group-hover:text-mainButton">{title}</h5>
         {/* container of autor image and like counts */}

@@ -23,7 +23,7 @@ const responsive = {
 
 export const Comments: React.FC = () => {
   return (
-    <section className="w-full px-[15rem] bg-gray-50 py-20">
+    <section className="w-full px-[15rem] bg-grayMain py-20">
       <Carousel
         swipeable={false}
         draggable={false}
