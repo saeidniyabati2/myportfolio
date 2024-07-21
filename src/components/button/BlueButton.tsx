@@ -9,7 +9,7 @@ interface props {
 export const BlueButton: React.FC<props> = ({ title, Icon, ClassName }) => {
   return (
     <Button
-      className={`bg-[#0189FF] text-white px-6 py-2 rounded-sm ${ClassName}`}
+      className={`bg-[#0189FF] text-white px-6 py-2 rounded-sm ${ClassName} group hover:bg-[#0162ff]`}
       endIcon={<Icon style={{ fontSize: "14px" }} />}
     >
       <p className="font-HankenGrotesk no-transform font-light">{title}</p>
