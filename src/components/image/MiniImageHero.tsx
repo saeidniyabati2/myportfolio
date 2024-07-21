@@ -11,7 +11,6 @@ export const MiniImageHero: React.FC<props> = ({ src, className, size }) => {
   const [sizeState, setSizeState] = useState("w-10 h-10");
 
   useEffect(() => {
-    
     if (size === "small") {
       return setSizeState("w-6 h-6");
     } else if (size === "medium") {

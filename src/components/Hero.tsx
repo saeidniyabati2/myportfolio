@@ -21,7 +21,7 @@ export const Hero: React.FC = () => {
           <h1 className="text-6xl font-HankenGrotesk">
             a <span className="text-mainButton">Web Developer</span>
           </h1>
-          <p className="text-[#ADB7C4] max-w-[30rem] text-sm leading-relaxed mt-4">
+          <p className="text-secondGray max-w-[30rem] text-sm leading-relaxed mt-4">
             Hi, I'm Saeed a freelancer web developer from Iran. I help brands
             turn their idea into high quality products.
           </p>
@@ -63,7 +63,7 @@ export const Hero: React.FC = () => {
 
         <MiniImageHero
           src="/assets/next-dot-js-svgrepo-com.svg"
-          className=" top-56 right-32 "
+          className="top-56 right-32 "
           size="medium"
         />
       </div>
