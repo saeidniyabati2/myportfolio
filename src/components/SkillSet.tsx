@@ -5,8 +5,8 @@ import { ProgressBarComp } from "./ProgressBarComp";
 
 export default function SkillSet() {
   return (
-    <section className="w-full h-[60vh] bg-[#F8F9FD] flex px-[15rem] py-[5rem]">
-      <div className="w-full h-full  flex ">
+    <section className="w-full  bg-[#F8F9FD] flex px-[15rem] py-[5rem]">
+      <div className="w-full h-full  flex  items-center">
         {/* container of text and button */}
         <div className="w-full h-full  flex flex-col gap-y-5 ">
           <p className="text-sm text-mainButton">SKILLSET</p>
@@ -23,7 +23,7 @@ export default function SkillSet() {
             <BlueButton title="Get Any Project" Icon={ArrowForwardIosIcon} />
           </div>
         </div>
-        <div className="w-full h-full flex flex-col gap-y-7  justify-center">
+        <div className="w-full h-full flex flex-col gap-y-7  justify-center ">
           <ProgressBarComp title="Next.js" />
           <ProgressBarComp title="React.js" />
           <ProgressBarComp title="TypeScript" />
