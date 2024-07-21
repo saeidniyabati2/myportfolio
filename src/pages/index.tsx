@@ -21,6 +21,7 @@ const Home = () => {
       <AchivementCounts />
       <EducatExperience />
       {/* <Banner /> */}
+      {/* dfd */}
       <Gallery />
       <Comments />
       <Blogs />
