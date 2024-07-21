@@ -3,14 +3,15 @@ import { BlueButton } from "./button/BlueButton";
 import AboutMeCarousel from "./image/AboutMeCarousel";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import ImageAboutMe from "./ImageAboutMe";
-export default function AboutMe(props: object) {
+import { MiniMainText } from "./texts/MiniMainText";
+export default function AboutMe() {
   return (
     <section
-      className="w-full pt-28 h-[95vh] flex flex-col
+      className="w-full pt-28 flex flex-col
     "
     >
       {/* container of mini text title with image slider */}
-      <div className="w-full   flex flex-col items-center px-[9.9rem] ">
+      <div className="w-full flex flex-col items-center px-[9.9rem]">
         <p className="text-sm">
           <span className="text-mainButton ">TECHNOLOGIES</span> THAT I AM USING
         </p>
@@ -19,7 +20,7 @@ export default function AboutMe(props: object) {
       </div>
       {/* container of image and description */}
       <div className="w-full h-full flex ">
-        <div className="w-full h-full bg-green">
+        <div className="w-full h-full ">
           <ImageAboutMe />
         </div>
         <div className="w-full h-full flex flex-col pt-20 gap-y-4 pb-12  ">

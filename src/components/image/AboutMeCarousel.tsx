@@ -22,7 +22,7 @@ const responsive = {
   },
 };
 
-export default function AboutMeCarousel(props: any) {
+export default function AboutMeCarousel() {
   return (
     <div className="w-full h-full  mt-10">
       <Carousel
