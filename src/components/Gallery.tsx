@@ -2,7 +2,7 @@ import { AnimatedImageCard } from "./image/AnimatedImageCard";
 
 export const Gallery: React.FC = () => {
   return (
-    <section className="w-full px-[15rem]  flex flex-col items-center pb-24">
+    <section className="w-full px-[15rem] flex flex-col items-center pb-24">
       <div className="w-full  flex flex-col items-center">
         {/* container of texts */}
         <p className="text-sm text-mainButton mt-20">MY EXPERTISE</p>
@@ -21,18 +21,22 @@ export const Gallery: React.FC = () => {
           <AnimatedImageCard
             title="Web Development"
             description="Lorem ipsum dolor sit."
+            src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
           />
           <AnimatedImageCard
             title="Web Development"
             description="Lorem ipsum dolor sit."
+            src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
           />
           <AnimatedImageCard
             title="Web Development"
             description="Lorem ipsum dolor sit."
+            src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
           />
           <AnimatedImageCard
             title="Web Development"
             description="Lorem ipsum dolor sit."
+            src="/assets/bd2727973edd4252e384afe4b6e8315c.jpg"
           />
         </div>
       </div>
