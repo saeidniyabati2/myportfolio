@@ -3,7 +3,7 @@ import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 import MiniImageHero from "./image/MiniImageHero";
 import { BlueButton } from "./button/BlueButton";
-import GrayButton from "./button/GrayButton";
+import { GrayButton } from "./button/GrayButton";
 
 export const Hero: React.FC = () => {
   return (
@@ -30,7 +30,7 @@ export const Hero: React.FC = () => {
             {/* blue button */}
             <BlueButton title="Book a Call" Icon={ArrowForwardIosIcon} />
             {/* gray button */}
-            <GrayButton title="Download CVS" icon={CloudDownloadIcon} />
+            <GrayButton title="Download CVS" Icon={CloudDownloadIcon} />
           </div>
         </div>
         <MiniImageHero
