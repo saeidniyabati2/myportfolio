@@ -3,7 +3,7 @@ import KeyboardCommandKeyIcon from "@mui/icons-material/KeyboardCommandKey";
 
 export const Experties: React.FC = () => {
   return (
-    <section className="w-full h-full  flex flex-col px-[15rem] pb-10">
+    <section className="w-full flex flex-col px-[15rem] pb-10">
       {/* container of title */}
       <div className="w-full  flex flex-col items-center">
         <p className="text-sm text-mainButton mt-20">MY EXPERTISE</p>
@@ -12,14 +12,13 @@ export const Experties: React.FC = () => {
         </h2>
       </div>
       {/* container of of cards */}
-      <div className="w-full flex pt-10 gap-x-4">
+      <div className="w-full flex pt-10 gap-x-4 ">
         {/* first card */}
         <ExpertiesCard
           title="Web Design"
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
               elit. Quidem,"
           miniText="Explore Service"
-          status={false}
           Icon={KeyboardCommandKeyIcon}
         />
         {/* second card */}
@@ -28,7 +27,6 @@ export const Experties: React.FC = () => {
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
               elit. Quidem,"
           miniText="Explore Service"
-          status={true}
           Icon={KeyboardCommandKeyIcon}
         />
         {/* third card */}
@@ -37,7 +35,6 @@ export const Experties: React.FC = () => {
           description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
               elit. Quidem,"
           miniText="Explore Service"
-          status={false}
           Icon={KeyboardCommandKeyIcon}
         />
       </div>
