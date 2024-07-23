@@ -14,8 +14,8 @@ import SkillSet from "../components/SkillSet";
 const Home = () => {
   return (
     <ContainerBlock>
-      {/* <Hero />
-      <AboutMe />
+      <Hero />
+      {/* <AboutMe /> 
       <SkillSet />
       <Experties />
       <AchivementCounts />
