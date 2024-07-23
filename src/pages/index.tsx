@@ -14,17 +14,15 @@ import SkillSet from "../components/SkillSet";
 const Home = () => {
   return (
     <ContainerBlock>
-      <Hero />
+      {/* <Hero />
       <AboutMe />
       <SkillSet />
       <Experties />
       <AchivementCounts />
       <EducatExperience />
-      {/* <Banner /> */}
-      {/* dfd */}
       <Gallery />
       <Comments />
-      <Blogs />
+      <Blogs /> */}
     </ContainerBlock>
   );
 };
