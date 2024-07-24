@@ -4,6 +4,7 @@ import Image from "next/image";
 import { MiniImageHero } from "./image/MiniImageHero";
 import { BlueButton } from "./button/BlueButton";
 import { GrayButton } from "./button/GrayButton";
+import { TextGenerateEffect } from "./texts/TextGenerateEffect";
 
 export const Hero: React.FC = () => {
   return (
@@ -17,13 +18,9 @@ export const Hero: React.FC = () => {
         </div>
         {/* container of texts */}
         <div className="w-full bg-green-500 flex flex-col items-center">
-          <h1 className="text-4xl font-HankenGrotesk font-medium">
-            I'm Saeid Niyabati
-          </h1>
-          <h1 className="text-4xl font-HankenGrotesk">a</h1>
-          <h1 className="text-4xl font-HankenGrotesk text-mainButton">
-            Web Developer
-          </h1>
+          <h1 className="text-4xl  font-medium">I'm Saeid Niyabati</h1>
+          <h1 className="text-4xl ">a</h1>
+          <h1 className="text-4xl  text-mainButton">Web Developer</h1>
           <p className="text-secondGray text-sm leading-relaxed mt-3 text-center">
             Hi, I'm Saeed a freelancer web developer from Iran. I help brands
             turn their idea into high quality products.
@@ -42,12 +39,10 @@ export const Hero: React.FC = () => {
           <h1 className="mt-28 text-[2.7rem] font-HankenGrotesk">
             Hello Mate 👋
           </h1>
-          <h1 className="text-6xl font-HankenGrotesk font-medium">
-            I'm Saeid Niyabati
-          </h1>
-          <h1 className="text-6xl font-HankenGrotesk">
-            a <span className="text-mainButton">Web Developer</span>
-          </h1>
+          <TextGenerateEffect
+            words={`I'm Saeed Niyabati a Web Developer`}
+            className="text-6xl font-medium max-w-[33rem] leading-[1.3]"
+          />
           <p className="text-secondGray max-w-[30rem] text-sm leading-relaxed mt-4">
             Hi, I'm Saeed a freelancer web developer from Iran. I help brands
             turn their idea into high quality products.
