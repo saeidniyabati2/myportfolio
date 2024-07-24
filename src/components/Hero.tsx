@@ -8,16 +8,16 @@ import { TextGenerateEffect } from "./texts/TextGenerateEffect";
 
 export const Hero: React.FC = () => {
   return (
-    <section className="w-full h-[75vh] flex flex-col md:flex-row px-4 md:px-0">
+    <section className="w-full  flex flex-col md:flex-row px-4 md:px-0 ">
       {/* contaienr of images, title and descriptions for mobile */}
-      <div className="bg-red-500 w-full flex flex-col items-center md:hidden pt-10">
+      <div className=" w-full flex flex-col items-center md:hidden pt-4">
         <h1 className="text-[1.9rem] font-HankenGrotesk">Hello Mate 👋</h1>
         {/* container of image */}
-        <div className=" w-full h-[25rem] relative bg-fuchsia-500 mt-2">
+        <div className=" w-full h-[23rem] relative  mt-2">
           <Image fill alt="Hero image" src="/assets/Rectangle 11.png" />
         </div>
         {/* container of texts */}
-        <div className="w-full bg-green-500 flex flex-col items-center">
+        <div className="w-full  flex flex-col items-center mt-4 ">
           <h1 className="text-4xl  font-medium">I'm Saeid Niyabati</h1>
           <h1 className="text-4xl ">a</h1>
           <h1 className="text-4xl  text-mainButton">Web Developer</h1>

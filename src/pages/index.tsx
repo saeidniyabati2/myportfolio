@@ -16,13 +16,13 @@ const Home = () => {
     <ContainerBlock>
       <Hero />
       <AboutMe />
-      <SkillSet />
+      {/* <SkillSet />
       <Experties />
       <AchivementCounts />
       <EducatExperience />
       <Gallery />
       <Comments />
-      <Blogs />
+      <Blogs /> */}
     </ContainerBlock>
   );
 };
