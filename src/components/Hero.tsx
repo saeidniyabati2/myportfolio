@@ -28,8 +28,16 @@ export const Hero: React.FC = () => {
         </div>
         {/* button container  */}
         <div className="w-full flex flex-col gap-y-2">
-          <BlueButton title="Book a Call" Icon={ArrowForwardIosIcon} />
-          <GrayButton title="Download CVS" Icon={CloudDownloadIcon} />
+          <BlueButton
+            title="Book a Call"
+            Icon={ArrowForwardIosIcon}
+            ClassName="py-3 mt-2"
+          />
+          <GrayButton
+            title="Download CVS"
+            Icon={CloudDownloadIcon}
+            ClassName="py-3"
+          />
         </div>
       </div>
       {/* left side section for desktop */}
