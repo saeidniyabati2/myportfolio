@@ -39,8 +39,8 @@ export default function AboutMeCarousel() {
         transitionDuration={500}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["desktop", "mobile", "tablet"]}
-        //   deviceType={this.props.deviceType}
-        // dotListClass="custom-dot-list-style"
+        deviceType={this.props.deviceType}
+        dotListClass="custom-dot-list-style"
         itemClass=""
         className="w-full h-full"
       >
