@@ -18,8 +18,8 @@ const Home = () => {
       <AboutMe />
       <SkillSet />
       <Experties />
-      {/*<AchivementCounts />
-      <EducatExperience />
+      <AchivementCounts />
+      {/*<EducatExperience />
       <Gallery />
       <Comments />
       <Blogs /> */}
