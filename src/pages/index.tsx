@@ -22,7 +22,7 @@ const Home = () => {
       <EducatExperience />
       <Gallery />
       <Comments />
-      {/*<Blogs /> */}
+      <Blogs />
     </ContainerBlock>
   );
 };

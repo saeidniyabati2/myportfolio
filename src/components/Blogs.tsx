@@ -5,22 +5,26 @@ import { BlogCard } from "./cards/BlogCard";
 
 export const Blogs: React.FC = () => {
   return (
-    <section className="w-full px-[15rem]  flex flex-col pb-28">
-      <div className="flex">
-        <div className="w-full  flex flex-col">
-          <p className="text-sm text-mainButton mt-20">BLOG & NEWS</p>
-          <h2 className="text-[1.8rem] leading-snug max-w-[25rem] mt-3">
+    <section className="w-full px-4 md:px-[15rem] mt-10 md:mt-0 flex flex-col pb-10 md:pb-28 ">
+      <div className="flex flex-col md:flex-row  items-center md:items-start">
+        <div className="w-full flex flex-col  items-center md:items-start">
+          <p className="text-sm text-mainButton mt-5 md:mt-20">BLOG & NEWS</p>
+          <h2 className="text-[1.8rem] leading-snug md:max-w-[25rem] mt-3">
             Our Latest Blogs
           </h2>
         </div>
-        <div className="w-full  flex items-end justify-end">
-          <BlueButton title="Read Our Blogs" Icon={KeyboardCommandKeyIcon} />
+        <div className="w-full flex  md:items-end justify-center md:justify-end mt-8 md:mt-0">
+          <BlueButton
+            title="Read Our Blogs"
+            Icon={KeyboardCommandKeyIcon}
+            ClassName="py-3 w-full"
+          />
         </div>
       </div>
       {/* container of cards */}
       <div
-        className="w-full  flex mt-14
-      gap-x-6"
+        className="w-full flex flex-col md:flex-row  mt-14
+      gap-y-6 md:gap-x-6"
       >
         <BlogCard
           title="How To Win The Application Of The New Yourk"
