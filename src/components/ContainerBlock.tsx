@@ -6,7 +6,7 @@ export default function ContainerBlock({ children }) {
     <section className="flex flex-col">
       <Navbar />
       {children}
-      {/* <Footer /> */}
+      <Footer />
     </section>
   );
 }
