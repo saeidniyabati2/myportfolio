@@ -8,9 +8,9 @@ import { TextGenerateEffect } from "./texts/TextGenerateEffect";
 
 export const Hero: React.FC = () => {
   return (
-    <section className="w-full  flex flex-col md:flex-row px-4 md:px-0 ">
+    <section className="w-full  flex flex-col md:flex-row px-4 md:px-0  pb-16 md:bg-grayMain">
       {/* contaienr of images, title and descriptions for mobile */}
-      <div className=" w-full flex flex-col items-center md:hidden pt-4">
+      <div className=" w-full flex flex-col items-center md:hidden pt-4 ">
         <h1 className="text-[1.9rem] font-HankenGrotesk">Hello Mate 👋</h1>
         {/* container of image */}
         <div className=" w-full h-[23rem] relative  mt-2">
@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
       {/* left side section for desktop */}
-      <div className="w-full h-full basis-[73%] bg-[#F8F9FD] relative md:pl-[15rem] hidden md:flex ">
+      <div className=" h-full basis-[73%] bg-[#F8F9FD] relative md:pl-[15rem] hidden md:flex ">
         {/* container of texts with buttons */}
         <div className="w-full   flex flex-col gap-y-5 ">
           <h1 className="mt-28 text-[2.7rem] font-HankenGrotesk">
@@ -75,9 +75,9 @@ export const Hero: React.FC = () => {
         />
       </div>
       {/* right side section */}
-      <div className="w-full h-full  basis-[27%] bg-[#ECF6FF] relative hidden">
+      <div className=" h-full basis-[27%]  hidden md:block bg-red-600">
         {/* container of hero image */}
-        <div className=" w-[28rem] h-[35rem]  absolute -bottom-1 right-40  ">
+        <div className=" w-[28rem] h-[30rem] top-[10.7rem] right-40 absolute bg-red-500">
           <Image fill alt="Hero image" src="/assets/Rectangle 11.png" />
         </div>
         <MiniImageHero

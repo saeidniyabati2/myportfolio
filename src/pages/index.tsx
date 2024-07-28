@@ -15,14 +15,14 @@ const Home = () => {
   return (
     <ContainerBlock>
       <Hero />
-      <AboutMe />
+      {/* <AboutMe />
       <SkillSet />
       <Experties />
       <AchivementCounts />
       <EducatExperience />
       <Gallery />
       <Comments />
-      <Blogs />
+      <Blogs /> */}
     </ContainerBlock>
   );
 };

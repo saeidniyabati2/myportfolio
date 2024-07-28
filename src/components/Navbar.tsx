@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="w-full  flex  px-4">
-      <div className="w-full h-full  lg:basis-[73%] flex bg-grayMain pt-4 lg:pl-[15rem]">
+    <nav className="w-full flex  px-4 bg-red-400 md:px-0">
+      <div className="w-full h-full  lg:basis-[73%] flex bg-grayMain pt-4 lg:pl-[15rem] ">
         {/* container of image */}
         {/* just desktop */}
         <div className=" h-full pt-3 relative  items-center basis-4/12 hidden md:flex p-1">
@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="w-full  basis-[27%]  items-center gap-x-3 bg-[#ECF6FF] pl-10 hidden lg:flex pt-4">
+      <div className="w-full   basis-[27%]  items-center gap-x-3 bg-[#ECF6FF] pl-10 hidden lg:flex pt-4 ">
         {/* container of icon */}
         <div className="w-5 h-5  relative ">
           <Image fill alt="" src="/assets/email-8-svgrepo-com.svg" />
