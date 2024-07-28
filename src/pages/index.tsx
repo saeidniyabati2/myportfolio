@@ -19,8 +19,8 @@ const Home = () => {
       <SkillSet />
       <Experties />
       <AchivementCounts />
-      {/*<EducatExperience />
-      <Gallery />
+      <EducatExperience />
+      {/*<Gallery />
       <Comments />
       <Blogs /> */}
     </ContainerBlock>
