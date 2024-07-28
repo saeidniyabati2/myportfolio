@@ -1,8 +1,25 @@
 export const AchivementCounts: React.FC = () => {
   return (
-    <section className="w-full px-[15rem] md:py-10 md:mt-6 bg-fuchsia-600">
+    <section className="w-full md:px-[15rem] md:py-10 md:mt-6 pb-10">
       {/* just for mobile */}
-      <div className="w-full bg-red-600 flex flex-col">dfd</div>
+      <div className="w-full  flex flex-col items-center ">
+        <div className="w-48 flex flex-col items-center py-5  gap-y-2 border-t border-gray-200  ">
+          <h4 className="text-3xl">68</h4>
+          <p className="text-sm text-secondGray">happy clients</p>
+        </div>
+        <div className="w-48 flex flex-col items-center py-5  gap-y-2 border-t border-gray-200">
+          <h4 className="text-3xl">68</h4>
+          <p className="text-sm text-secondGray">happy clients</p>
+        </div>
+        <div className="w-48 flex flex-col items-center py-5  gap-y-2 border-t border-gray-200">
+          <h4 className="text-3xl">68</h4>
+          <p className="text-sm text-secondGray">happy clients</p>
+        </div>
+        <div className="w-48 flex flex-col items-center py-5  gap-y-2 border-b border-t border-gray-200">
+          <h4 className="text-3xl">68</h4>
+          <p className="text-sm text-secondGray">happy clients</p>
+        </div>
+      </div>
 
       {/* just for desktop */}
       <div className="  flex-row border-y border-gray-200 py-8 hidden md:flex">
