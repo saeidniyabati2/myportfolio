@@ -20,8 +20,8 @@ const Home = () => {
       <Experties />
       <AchivementCounts />
       <EducatExperience />
-      {/*<Gallery />
-      <Comments />
+      <Gallery />
+      {/*<Comments />
       <Blogs /> */}
     </ContainerBlock>
   );
