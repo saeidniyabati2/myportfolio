@@ -23,13 +23,14 @@ const responsive = {
 
 export const Comments: React.FC = () => {
   return (
-    <section className="w-full px-[15rem] bg-grayMain py-20">
+    <section className="w-full px-4 md:px-[15rem] bg-grayMain py-20 ">
       <Carousel
         swipeable={false}
         draggable={false}
         showDots={false}
         infinite={true}
         autoPlay={true}
+        arrows={false}
         autoPlaySpeed={500}
         customTransition="all .5"
         transitionDuration={1000}

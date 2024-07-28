@@ -21,8 +21,8 @@ const Home = () => {
       <AchivementCounts />
       <EducatExperience />
       <Gallery />
-      {/*<Comments />
-      <Blogs /> */}
+      <Comments />
+      {/*<Blogs /> */}
     </ContainerBlock>
   );
 };
