@@ -8,7 +8,7 @@ import { TextGenerateEffect } from "./texts/TextGenerateEffect";
 
 export const Hero: React.FC = () => {
   return (
-    <section className="w-full md:h-[65vh] flex flex-col md:flex-row px-4 md:px-0 md:bg-grayMain  ">
+    <section className="w-full md:h-[65vh] flex flex-col md:flex-row px-4 md:px-0 md:bg-grayMain ">
       {/* contaienr of images, title and descriptions for mobile */}
       <div className=" w-full flex flex-col items-center md:hidden pt-4 ">
         <h1 className="text-[1.9rem] font-HankenGrotesk">Hello Mate 👋</h1>

@@ -7,11 +7,11 @@ import { ImageAboutMe } from "./ImageAboutMe";
 export default function AboutMe() {
   return (
     <section
-      className="w-full pt-16 md:pt-28 flex flex-col px-4 md:px-0
+      className="w-full pt-16 md:pt-28 flex flex-col px-4 bg-red-500 md:px-0
     "
     >
       {/* container of mini text title with image slider */}
-      <div className="w-full flex flex-col items-center  md:px-[9.9rem]">
+      <div className="w-full flex flex-col items-center  md:px-[9.9rem] bg-green-300">
         <p className="text-sm">
           <span className="text-mainButton ">TECHNOLOGIES</span> THAT I AM USING
         </p>
@@ -19,7 +19,7 @@ export default function AboutMe() {
         <AboutMeCarousel />
       </div>
       {/* container of image and description */}
-      <div className="w-full h-full flex  flex-col md:flex-row">
+      <div className="w-full h-full flex  flex-col md:flex-row bg-green-600">
         <div className="w-full h-full mt-3 md:mt-0">
           <ImageAboutMe ClassName="h-[20rem] md:h-[33rem]" />
         </div>
@@ -35,9 +35,9 @@ export default function AboutMe() {
             dolores quisquam
           </p>
           {/* container of main information and button */}
-          <div className="w-full h-full  flex flex-col  md:max-w-[30rem] ">
+          <div className="w-full h-full  flex flex-col  md:max-w-[30rem]  md:items-start">
             {/* container of name and other information */}
-            <div className="w-full   grid grid-cols-2 gap-y-2 md:gap-y-1 md:mt-3  mt-2 ">
+            <div className="w-full  grid grid-cols-2 gap-y-2 md:gap-y-1 md:mt-3  mt-2 ">
               <div className="w-full flex items-center gap-x-3  ">
                 <p className=" text-xs md:text-sm leading-relaxed ">Name:</p>
                 <p className="text-secondGray text-xs md:text-sm leading-relaxed ">
@@ -67,11 +67,10 @@ export default function AboutMe() {
                 </p>
               </div>
             </div>
-
             <BlueButton
               title="Book a Call"
               Icon={ArrowForwardIosIcon}
-              ClassName="py-3 mt-10"
+              ClassName="py-3 mt-10 "
             />
             {/* container of button */}
             {/* <div className="w-full flex mt-8  items-center gap-x-6">

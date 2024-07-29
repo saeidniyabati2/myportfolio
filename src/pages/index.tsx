@@ -15,8 +15,8 @@ const Home = () => {
   return (
     <ContainerBlock>
       <Hero />
-      {/* <AboutMe />
-      <SkillSet />
+       <AboutMe />
+      {/*<SkillSet />
       <Experties />
       <AchivementCounts />
       <EducatExperience />
