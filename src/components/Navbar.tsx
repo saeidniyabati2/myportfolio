@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Navbar: React.FC = () => {
   return (
-    <nav className="w-full flex  px-4 bg-red-400 md:px-0">
+    <nav className="w-full flex  px-4  md:px-0">
       <div className="w-full h-full  lg:basis-[73%] flex bg-grayMain pt-4 lg:pl-[15rem] ">
         {/* container of image */}
         {/* just desktop */}
