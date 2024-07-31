@@ -8,7 +8,7 @@ import { TextGenerateEffect } from "./texts/TextGenerateEffect";
 
 export const Hero: React.FC = () => {
   return (
-    <section className="w-full md:h-[65vh] flex flex-col md:flex-row px-4 md:px-0 md:bg-grayMain ">
+    <section className="w-full md:h-[75vh] flex flex-col md:flex-row px-4 md:px-0 md:bg-grayMain ">
       {/* contaienr of images, title and descriptions for mobile */}
       <div className=" w-full flex flex-col items-center md:hidden pt-4 ">
         <h1 className="text-[1.9rem] font-HankenGrotesk">Hello Mate 👋</h1>
@@ -56,9 +56,9 @@ export const Hero: React.FC = () => {
             turn their idea into high quality products.
           </p>
           {/* buttons container */}
-          <div className="w-full h-full flex gap-x-4 mt-0 ">
+          <div className="w-full  flex gap-x-4 mt-10 ">
             {/* blue button */}
-            <BlueButton title="Book a Call" Icon={ArrowForwardIosIcon} />
+            <BlueButton title="Book a Call" Icon={ArrowForwardIosIcon} ClassName="py-3" />
             {/* gray button */}
             <GrayButton title="Download CVS" Icon={CloudDownloadIcon} />
           </div>
