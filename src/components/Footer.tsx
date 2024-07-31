@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
         <BlueButton
           title="Get A Quote"
           Icon={ArrowForwardIosIcon}
-          ClassName="mt-9 py-3 md:py-0 w-full md:w-auto"
+          ClassName="mt-9 py-3 w-full md:w-auto"
         />
         {/* container social media icons */}
         <div className="w-full mt-10 md:mt-24 flex border-secondGray border-t-[0.2px] pt-6 ">
