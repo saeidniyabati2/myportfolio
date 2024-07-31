@@ -15,11 +15,11 @@ const Home = () => {
   return (
     <ContainerBlock>
       <Hero />
-       <AboutMe />
+      <AboutMe />
       <SkillSet />
-      {/* <Experties /> 
+      <Experties />
       <AchivementCounts />
-      <EducatExperience />
+      {/*<EducatExperience />
       <Gallery />
       <Comments />
       <Blogs /> */}
