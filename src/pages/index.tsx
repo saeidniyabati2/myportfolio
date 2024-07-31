@@ -17,7 +17,7 @@ const Home = () => {
       <Hero />
        <AboutMe />
       <SkillSet />
-      {/* <Experties /> */}
+      {/* <Experties /> 
       <AchivementCounts />
       <EducatExperience />
       <Gallery />

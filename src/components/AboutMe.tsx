@@ -7,11 +7,11 @@ import { ImageAboutMe } from "./ImageAboutMe";
 export default function AboutMe() {
   return (
     <section
-      className="w-full pt-16 md:pt-28 flex flex-col px-4 bg-red-500 md:px-0
+      className="w-full pt-16 md:pt-28 flex flex-col px-4 md:px-0
     "
     >
       {/* container of mini text title with image slider */}
-      <div className="w-full flex flex-col items-center  md:px-[9.9rem] bg-green-300">
+      <div className="w-full flex flex-col items-center  md:px-[9.9rem] ">
         <p className="text-sm">
           <span className="text-mainButton ">TECHNOLOGIES</span> THAT I AM USING
         </p>
@@ -19,7 +19,7 @@ export default function AboutMe() {
         <AboutMeCarousel />
       </div>
       {/* container of image and description */}
-      <div className="w-full h-full flex  flex-col md:flex-row bg-green-600">
+      <div className="w-full h-full flex  flex-col md:flex-row ">
         <div className="w-full h-full mt-3 md:mt-0">
           <ImageAboutMe ClassName="h-[20rem] md:h-[33rem]" />
         </div>
