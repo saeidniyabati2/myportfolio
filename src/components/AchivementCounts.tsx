@@ -1,8 +1,8 @@
 export const AchivementCounts: React.FC = () => {
   return (
-    <section className="w-full md:px-[15rem] md:py-10 md:mt-6 pb-10">
+    <section className="w-full md:px-[15rem] md:py-10 md:mt-6 pb-10 ">
       {/* just for mobile */}
-      <div className="w-full  flex flex-col items-center ">
+      <div className="w-full  flex flex-col items-center md:hidden">
         <div className="w-48 flex flex-col items-center py-5  gap-y-2 border-t border-gray-200  ">
           <h4 className="text-3xl">68</h4>
           <p className="text-sm text-secondGray">happy clients</p>
