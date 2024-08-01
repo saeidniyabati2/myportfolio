@@ -1,7 +1,8 @@
-import { BlueButton } from "./button/BlueButton";
+
 import KeyboardCommandKeyIcon from "@mui/icons-material/KeyboardCommandKey";
 
 import { BlogCard } from "./cards/BlogCard";
+import { ButtonCom } from "./ui/ButtonCom";
 
 export const Blogs: React.FC = () => {
   return (
@@ -14,10 +15,10 @@ export const Blogs: React.FC = () => {
           </h2>
         </div>
         <div className="w-full flex  md:items-end justify-center md:justify-end mt-8 md:mt-0 ">
-          <BlueButton
+          <ButtonCom
             title="Read Our Blogs"
             Icon={KeyboardCommandKeyIcon}
-            ClassName="py-3 w-full md:w-auto"
+            ClassName="w-full py-3 mt-2 bg-[#0189FF] hover:bg-[#0162ff] text-white md:w-auto"
           />
         </div>
       </div>

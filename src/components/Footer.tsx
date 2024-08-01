@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { BlueButton } from "./button/BlueButton";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import { ButtonCom } from "./ui/ButtonCom";
 
 export const Footer: React.FC = () => {
   return (
@@ -11,11 +11,13 @@ export const Footer: React.FC = () => {
         <h1 className="text-[2rem] md:text-[2.7rem] text-white font-HankenGrotesk mt-2">
           Got a Project? Lets Talk!
         </h1>
-        <BlueButton
+
+        <ButtonCom
           title="Get A Quote"
           Icon={ArrowForwardIosIcon}
-          ClassName="mt-9 py-3 w-full md:w-auto"
+          ClassName="w-full py-3 mt-9 bg-[#0189FF] hover:bg-[#0162ff] text-white md:w-auto"
         />
+
         {/* container social media icons */}
         <div className="w-full mt-10 md:mt-24 flex border-secondGray border-t-[0.2px] pt-6 ">
           <div className="w-full flex items-center gap-x-5">

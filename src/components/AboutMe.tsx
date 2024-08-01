@@ -1,8 +1,7 @@
-import Image from "next/image";
-import { BlueButton } from "./button/BlueButton";
 import AboutMeCarousel from "./image/AboutMeCarousel";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { ImageAboutMe } from "./ImageAboutMe";
+import { ButtonCom } from "./ui/ButtonCom";
 
 export default function AboutMe() {
   return (
@@ -67,10 +66,11 @@ export default function AboutMe() {
                 </p>
               </div>
             </div>
-            <BlueButton
+
+            <ButtonCom
               title="Book a Call"
               Icon={ArrowForwardIosIcon}
-              ClassName="py-3 mt-10 "
+              ClassName="py-3 mt-10 bg-[#0189FF] hover:bg-[#0162ff] text-white"
             />
             {/* container of button */}
             {/* <div className="w-full flex mt-8  items-center gap-x-6">

@@ -2,9 +2,8 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
 import { MiniImageHero } from "./image/MiniImageHero";
-import { BlueButton } from "./button/BlueButton";
-import { GrayButton } from "./button/GrayButton";
 import { TextGenerateEffect } from "./texts/TextGenerateEffect";
+import { ButtonCom } from "./ui/ButtonCom";
 
 export const Hero: React.FC = () => {
   return (
@@ -28,15 +27,15 @@ export const Hero: React.FC = () => {
         </div>
         {/* button container  */}
         <div className="w-full flex flex-col gap-y-2">
-          <BlueButton
+          <ButtonCom
             title="Book a Call"
             Icon={ArrowForwardIosIcon}
-            ClassName="py-3 mt-2"
+            ClassName="py-3 mt-2 bg-[#0189FF] hover:bg-[#0162ff] text-white"
           />
-          <GrayButton
+          <ButtonCom
             title="Download CVS"
             Icon={CloudDownloadIcon}
-            ClassName="py-3"
+            ClassName="py-3 mt-2 bg-[#e0e0e0]  text-black  border-2 "
           />
         </div>
       </div>
@@ -58,9 +57,17 @@ export const Hero: React.FC = () => {
           {/* buttons container */}
           <div className="w-full  flex gap-x-4 mt-10 ">
             {/* blue button */}
-            <BlueButton title="Book a Call" Icon={ArrowForwardIosIcon} ClassName="py-3" />
-            {/* gray button */}
-            <GrayButton title="Download CVS" Icon={CloudDownloadIcon} />
+
+            <ButtonCom
+              title="Book a Call"
+              Icon={ArrowForwardIosIcon}
+              ClassName="py-3 mt-2 bg-[#0189FF] hover:bg-[#0162ff] text-white"
+            />
+            <ButtonCom
+              title="Download CVS"
+              Icon={CloudDownloadIcon}
+              ClassName="py-3 mt-2 bg-[#e0e0e0]  text-black  border-2 "
+            />
           </div>
         </div>
         <MiniImageHero

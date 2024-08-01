@@ -1,7 +1,7 @@
-import { BlueButton } from "./button/BlueButton";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import { ProgressBarComp } from "./ProgressBarComp";
+import { ButtonCom } from "./ui/ButtonCom";
 
 export default function SkillSet() {
   return (
@@ -19,7 +19,11 @@ export default function SkillSet() {
           </p>
           {/* container button */}
           <div className="w-full  md:flex mt-2 hidden ">
-            <BlueButton title="Get Any Project" Icon={ArrowForwardIosIcon} />
+            <ButtonCom
+              title="Get Any Project"
+              Icon={ArrowForwardIosIcon}
+              ClassName="w-full py-3 mt-9 bg-[#0189FF] hover:bg-[#0162ff] text-white md:w-auto hidden md:flex"
+            />
           </div>
         </div>
         <div className="w-full h-full flex flex-col gap-y-7  justify-center  mt-8 md:mt-0">
@@ -30,10 +34,10 @@ export default function SkillSet() {
         </div>
         {/* container button for mobile  */}
         <div className="w-full flex mt-10 md:hidden ">
-          <BlueButton
+          <ButtonCom
             title="Get Any Project"
             Icon={ArrowForwardIosIcon}
-            ClassName="w-full py-3"
+            ClassName="w-full py-3 bg-[#0189FF] hover:bg-[#0162ff] text-white "
           />
         </div>
       </div>
