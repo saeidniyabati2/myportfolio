@@ -1,4 +1,4 @@
-import { ExpertiesCard } from "./cards/ExpertiesCard";
+import { ExpertiesCard } from "./ui/cards/ExpertiesCard";
 import KeyboardCommandKeyIcon from "@mui/icons-material/KeyboardCommandKey";
 
 export const Experties: React.FC = () => {

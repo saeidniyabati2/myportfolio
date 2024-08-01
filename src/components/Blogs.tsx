@@ -1,7 +1,6 @@
-
 import KeyboardCommandKeyIcon from "@mui/icons-material/KeyboardCommandKey";
 
-import { BlogCard } from "./cards/BlogCard";
+import { BlogCard } from "./ui/cards/BlogCard";
 import { ButtonCom } from "./ui/ButtonCom";
 
 export const Blogs: React.FC = () => {

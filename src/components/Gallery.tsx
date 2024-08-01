@@ -1,4 +1,4 @@
-import { AnimatedImageCard } from "./image/AnimatedImageCard";
+import { AnimatedImageCard } from "./ui/image/AnimatedImageCard";
 
 export const Gallery: React.FC = () => {
   return (

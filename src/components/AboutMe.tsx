@@ -1,4 +1,4 @@
-import AboutMeCarousel from "./image/AboutMeCarousel";
+import AboutMeCarousel from "./ui/image/AboutMeCarousel";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { ImageAboutMe } from "./ImageAboutMe";
 import { ButtonCom } from "./ui/ButtonCom";

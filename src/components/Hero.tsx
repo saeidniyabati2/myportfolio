@@ -1,8 +1,8 @@
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import Image from "next/image";
-import { MiniImageHero } from "./image/MiniImageHero";
-import { TextGenerateEffect } from "./texts/TextGenerateEffect";
+import { MiniImageHero } from "./ui/image/MiniImageHero";
+import { TextGenerateEffect } from "./ui/texts/TextGenerateEffect";
 import { ButtonCom } from "./ui/ButtonCom";
 
 export const Hero: React.FC = () => {
