@@ -4,6 +4,8 @@ import Image from "next/image";
 import { MiniImageHero } from "./ui/image/MiniImageHero";
 import { TextGenerateEffect } from "./ui/texts/TextGenerateEffect";
 import { ButtonCom } from "./ui/ButtonCom";
+import MagicButton from "./ui/MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 export const Hero: React.FC = () => {
   return (
@@ -40,7 +42,7 @@ export const Hero: React.FC = () => {
         </div>
       </div>
       {/* left side section for desktop */}
-      <div className="  basis-[73%] bg-[#F8F9FD] relative md:pl-[15rem] hidden md:flex pb-16">
+      <div className="basis-[73%] bg-[#F8F9FD] relative md:pl-[15rem] hidden md:flex pb-16">
         {/* container of texts with buttons */}
         <div className="w-full   flex flex-col gap-y-5 ">
           <h1 className="mt-28 text-[2rem] font-HankenGrotesk">
@@ -58,15 +60,20 @@ export const Hero: React.FC = () => {
           <div className="w-full  flex gap-x-4 mt-10 ">
             {/* blue button */}
 
-            <ButtonCom
+            <MagicButton
               title="Book a Call"
-              Icon={ArrowForwardIosIcon}
-              ClassName="py-3 mt-2 bg-[#0189FF] hover:bg-[#0162ff] text-white"
+              position="right"
+              icon={<FaLocationArrow />}
+              buttonClasses="md:w-[10rem]"
+              otherClasses="bg-mainButton"
             />
-            <ButtonCom
-              title="Download CVS"
-              Icon={CloudDownloadIcon}
-              ClassName="py-3 mt-2 bg-[#e0e0e0]  text-black  border-2 "
+
+            <MagicButton
+              title="Book a Call"
+              position="right"
+              icon={<FaLocationArrow />}
+              buttonClasses="md:w-[10rem]"
+              otherClasses="bg-mainButton"
             />
           </div>
         </div>
