@@ -24,8 +24,6 @@
   p {
     @apply font-[HankenGrotesk];
   }
-
-  
 }
 
  {
@@ -49,5 +47,4 @@
 
 .footerClipPath {
   clip-path: polygon(1% 30%, 100% 0%, 100% 100%, 0% 100%);
-
 }
