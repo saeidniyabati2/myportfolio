@@ -12,7 +12,7 @@ export const Hero: React.FC = () => {
     <section className="w-full md:h-[75vh] flex flex-col md:flex-row px-4 md:px-0 md:bg-grayMain ">
       {/* contaienr of images, title and descriptions for mobile */}
       <div className=" w-full flex flex-col items-center md:hidden pt-4 ">
-        <h1 className="text-[1.9rem] font-HankenGrotesk">Hello Mate 👋</h1>
+        <h1 className="text-[1.9rem] font-HankenGrotesk">Hi Gyus 👋</h1>
         {/* container of image */}
         <div className=" w-full h-[23rem] relative  mt-2">
           <Image fill alt="Hero image" src="/assets/Rectangle 11.png" />
@@ -23,7 +23,7 @@ export const Hero: React.FC = () => {
           <h1 className="text-4xl ">a</h1>
           <h1 className="text-4xl text-mainButton">Web Developer</h1>
           <p className="text-secondGray text-sm leading-relaxed mt-3 text-center">
-            Hi, I'm Saeed a freelancer web developer from Iran. I help brands
+            Hi, I'm Saeed a web developer. I help brands
             turn their idea into high quality products.
           </p>
         </div>
